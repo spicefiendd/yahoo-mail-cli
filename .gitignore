@@ -1,0 +1,43 @@
+# dependencies
+node_modules/
+
+# local config / keep rules (account-specific; use config/keep-rules.example.json)
+config/*
+!config/keep-rules.example.json
+*keep-rules*.json
+!config/keep-rules.example.json
+*.local.json
+.env
+.env.*
+
+# browser profiles, cookies, sessions
+chrome-profile*/
+profiles/
+profile*/
+*.session
+sessions/
+cookies*
+*.cookies
+*cookies*.json
+storage-state*.json
+auth*.json
+
+# logs and output
+logs/
+*.log
+dry-run-logs/
+output/
+out/
+*-output.json
+mark-read-*.json
+delete-sender-*.json
+scan-*.json
+
+# screenshots
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+.DS_Store

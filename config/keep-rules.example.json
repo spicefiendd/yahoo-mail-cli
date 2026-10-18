@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "notes": [
+      "Copy and customize per user. Keep out of skill body."
+    ]
+  },
+  "alwaysKeep": [
+    "Example Insurance Agency"
+  ],
+  "keepUntil": [
+    {
+      "match": "OldProvider",
+      "until": "2026-12-31",
+      "afterTreatAs": "marketing"
+    }
+  ],
+  "actionableUnread": [
+    "Electric Utility",
+    "Example Patient Portal",
+    "Bank"
+  ],
+  "clearMarketing": [
+    "Example Restaurant Rewards",
+    "Example Loan Spam"
+  ],
+  "actionableSubjectHints": [
+    "bill ready",
+    "payment due",
+    "upcoming payment",
+    "patient portal"
+  ],
+  "fyiSubjectHints": [
+    "newsletter",
+    "security alert",
+    "deposit received"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "yahoo-mail-scripts",
+  "version": "1.0.0",
+  "description": "Durable Playwright automation for Yahoo Mail marketing cleanup (dry-run by default)",
+  "main": "bin/yahoo-mail.js",
+  "bin": {
+    "yahoo-mail": "./bin/yahoo-mail"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "yahoo-mail": "node bin/yahoo-mail.js",
+    "scan": "node bin/yahoo-mail.js scan",
+    "delete-sender": "node bin/yahoo-mail.js trash-sender",
+    "trash-sender": "node bin/yahoo-mail.js trash-sender",
+    "delete-tab": "node bulk-delete-tab.js",
+    "unsub": "node bin/yahoo-mail.js footer-unsub",
+    "footer-unsub": "node bin/yahoo-mail.js footer-unsub",
+    "triage": "node bin/yahoo-mail.js mark-read-triage",
+    "mark-read-triage": "node bin/yahoo-mail.js mark-read-triage",
+    "help": "node bin/yahoo-mail.js help"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.63.0"
+  },
+  "private": true
+}
